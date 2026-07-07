@@ -6,7 +6,9 @@ body{
 
 .Heron{
     position :absolute;
-    width: 200px;
+    width:18%;
+        min-width:120px;
+        max-width:200px;
     top: 10px;
     right: 10px;
 }
@@ -23,8 +25,12 @@ span{
 }
 
 input{
-    width: 60px;
-    height: 60px;
+    width: 5vw;
+    height: 5vw;
+    min-width: 45px;
+    min-height: 45px;
+    max-width: 70px;
+    max-height: 70px;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -77,17 +83,4 @@ button:active{
     opacity: 0;
     display: none;
     transition: opacity .3s;
-}
-
-//TAMPILAN MOBILE
-
-body{
-    min-width: 1200px;
-    overflow-x: auto;
-}
-
-.otp-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
