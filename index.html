@@ -10,7 +10,6 @@
 
 <body>
     <img src="Heron.png" class="Heron">
-    <img src="logo.png" class="logo">
 
     <br>
 
@@ -19,12 +18,12 @@
     </h2>
     
     <div class="otp-box">
-        <input type="text" id="otp1" maxlength="1">
-        <input type="text" id="otp2" maxlength="1">
-        <input type="text" id="otp3" maxlength="1">
-        <input type="text" id="otp4" maxlength="1">
-        <input type="text" id="otp5" maxlength="1">
-        <input type="text" id="otp6" maxlength="1">
+        <input type="text" id="otp1" maxlength="1" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <input type="text" id="otp2" maxlength="1" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <input type="text" id="otp3" maxlength="1" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <input type="text" id="otp4" maxlength="1" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <input type="text" id="otp5" maxlength="1" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <input type="text" id="otp6" maxlength="1" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
     </div>
 
     <br>
