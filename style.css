@@ -67,13 +67,27 @@ button:active{
 
 #popup{
     position: fixed;
-    top: 50px;
-    left: 50px;
+    top: 20px;
+    left: 20px;
     background: #7454cb;
     color: white;
-    padding: 20px 25px;
+    padding: 15px 20px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0;
-    transition:0.3s;
+    display: none;
+    transition: opacity .3s;
+}
+
+//TAMPILAN MOBILE
+
+body{
+    min-width: 1200px;
+    overflow-x: auto;
+}
+
+.otp-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
